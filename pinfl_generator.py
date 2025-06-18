@@ -1,3 +1,7 @@
+import random
+from datetime import datetime, timedelta
+
+
 def calculate_control_digit(pinfl):
     """Вычисление контрольной цифры ПИНФЛ"""
     weights = [7, 3, 1]  # Весовые коэффициенты
